@@ -1,0 +1,55 @@
+## Build and output directories
+bin/
+obj/
+out/
+[Bb]uild/
+[Dd]ist/
+
+## User-specific files
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+*.userprefs
+
+## Visual Studio cache and temp files
+.vs/
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+## Crash dumps and logs
+*.log
+*.dump
+*.crash
+*.trx
+
+## Rider / JetBrains
+.idea/
+*.sln.iml
+
+## OS generated files
+.DS_Store
+Thumbs.db
+[Dd]esktop.ini
+
+## Package restore and lock files
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.nupkg
+*.snupkg
+
+## Local environment and secret configs
+appsettings*.local.json
+*.local.json
+secrets.json
+.env
+.env.*
+!.env.example
+
+## Kafka local data (if mounted outside container)
+kafka-data/
